@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiFillCheckCircle, AiFillDelete } from "react-icons/ai";
-
+import'./components/App.css'
 const App = () => {
   const [task, setTask] = useState("");
   const [newTask, setNewTask] = useState([]);
@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <>
-      <div className="contenedor bg-black">
+      <div className="contenedor md-12 bg-black">
         <form onSubmit={handleSubmit}>
           <input
             type="text"
