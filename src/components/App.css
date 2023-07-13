@@ -3,11 +3,37 @@ body{
     justify-content: center;
     align-content: center;
     background-color: #1B1B32;
+    height: 100vh;
 }
 
 .contenedor{
     display: flex;
     justify-content: center;
-    width: auto;
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
+    margin-top: 15%;
+    
 }
 
+.contenedor:hover{
+    box-shadow: 5px 2px 30px 1px rgba(135, 12, 192, 0.637);
+    transition: 0.5s 
+
+}
+.input{
+    margin-top: 20px;
+}
+/* .container{
+    box-shadow: 20px 20ox 5px;
+} */
+
+.lista {
+    display: flex;
+    justify-content: space-between;    
+    /* width: 650px; */
+}
+
+.no-hay-tareas{
+    color: rgba(255, 0, 0, 0.847);
+}
