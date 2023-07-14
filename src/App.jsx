@@ -50,12 +50,12 @@ const App = () => {
             <button className="boton btn btn-dark d-inline m-1">
               {newTask.length}
             </button>
-            <button
+            {/* <button
               className="boton btn btn-danger d-inline m-1"
               onClick={handleTask}
             >
               Delete All
-            </button>
+            </button> */}
           </div>
           <ul className="container">
             {
@@ -66,7 +66,7 @@ const App = () => {
                     key={index}
                   >
                     <AiFillCheckCircle /> {tarea}{" "}
-                    <AiFillDelete onClick={() => handleDelete(index)} />
+                    <AiFillDelete className="task-delete" onClick={() => handleDelete(index)} />
                   </li>
                 ))
               ) : (

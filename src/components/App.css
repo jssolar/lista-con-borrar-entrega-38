@@ -17,7 +17,7 @@ body{
 }
 
 .contenedor:hover{
-    box-shadow: 5px 2px 30px 1px rgba(135, 12, 192, 0.637);
+    box-shadow: 5px 2px 10px 1px rgba(110, 110, 111, 0.637);
     transition: 0.5s 
 
 }
@@ -36,4 +36,12 @@ body{
 
 .no-hay-tareas{
     color: rgba(255, 0, 0, 0.847);
+}
+
+
+.task-delete:hover{
+    transition: 0.5s;
+    color: rgba(91, 255, 3, 0.822);
+    transform: scale(2.5);
+
 }
